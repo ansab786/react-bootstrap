@@ -9,3 +9,6 @@ In the project directory, you can run:
 ### `npm install`
 
 ### `npm start`
+
+## Screenshot
+![Screenshot](https://user-images.githubusercontent.com/110152208/182595477-b8d14a85-3877-44f4-ad36-5e1632f19376.png)
