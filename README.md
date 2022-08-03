@@ -11,4 +11,4 @@ In the project directory, you can run:
 ### `npm start`
 
 ## Screenshot
-![Screenshot](https://user-images.githubusercontent.com/110152208/182595477-b8d14a85-3877-44f4-ad36-5e1632f19376.png)
+![Screenshot (1)](https://user-images.githubusercontent.com/110152208/182597182-360ac72a-fd96-4fe8-97a2-b0561f16420f.png)
