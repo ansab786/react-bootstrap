@@ -1,6 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import "./SignIn.css";
 
 function SignIn() {
@@ -21,22 +19,41 @@ function SignIn() {
             section that will take us to a new page.
           </a>
         </p>
-        <Form className="form">
-          <Form.Group className="mb-3">
-            <Form.Control type="email" placeholder="Email Address" />
-          </Form.Group>
+        <div className="form">
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword">Password</label>
+          </div>
 
-          <Form.Group className="mb-3">
-            <Form.Control type="password" placeholder="Password" />
-          </Form.Group>
-          <Form.Group className="mb-3">
-            <Form.Check type="checkbox" label="Remember me" className="text" />
-          </Form.Group>
-          <Button variant="primary" type="submit" className="btn">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault" />
+            Remember Me
+          </div>
+
+          <button type="button" class="btn btn-primary">
             Sign In
-          </Button>
-        </Form>
-
+          </button>
+        </div>
         <h6>© 2017-2018</h6>
       </div>
     </>
